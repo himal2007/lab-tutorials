@@ -1,0 +1,3 @@
+"0","epi_map <- raster(""data/day_temp_cameroon_2010_12_1km.tif"") # dummy data as example, need to input prevalence map here"
+"0","pop_count <- raster(""data/Pop_count_cameroon_2010_12_1km.tif"")"
+"0","rur_urb_data <- raster(""data/2024-01-26_rural_urban_Cameroon_2010_1km.tif"")"

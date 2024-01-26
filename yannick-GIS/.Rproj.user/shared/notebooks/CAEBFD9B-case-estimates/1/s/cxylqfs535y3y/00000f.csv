@@ -1,0 +1,5 @@
+"0","output_dir <- getwd()"
+"0","country_boundary <- gadm(""CMR"", level = 0, path = output_dir) "
+"0","country_boundary_sf <- country_boundary %>% st_as_sf()"
+"0","country_boundary_3 <- gadm(""CMR"", level = 3, path = output_dir) "
+"0","country_boundary_3_sf <- country_boundary_3 %>% st_as_sf()"

@@ -1,0 +1,4 @@
+"0","pop_count_rururb_nourban <- pop_count * rururb_nourban"
+"0",""
+"0","## number of cases - assuming epimap is prevalence in percent"
+"0","n_cases <- pop_count_rururb_nourban * epi_map"
