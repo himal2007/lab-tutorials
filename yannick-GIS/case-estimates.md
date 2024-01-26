@@ -1,6 +1,7 @@
 Case Estimates
 ================
 
+- [Description](#description)
 - [Load libraries](#load-libraries)
 - [Set the output directory for downloaded
   data](#set-the-output-directory-for-downloaded-data)
@@ -13,6 +14,22 @@ Case Estimates
 - [Calculate mean cases by district](#calculate-mean-cases-by-district)
 - [Plot aggregated cases](#plot-aggregated-cases)
 - [Session info](#session-info)
+
+## Description
+
+This script estimates the number of cases in different districts of
+Cameroon or any other countries based on epidemiological data,
+population data, and rural-urban data. It first loads the necessary
+libraries and data, then reclassifies the rural-urban data to exclude
+urban areas.  
+It then calculates the number of cases by multiplying the population
+data (excluding urban areas) by the epidemiological map. The cases are
+then aggregated by district, and the results are plotted on a map.
+
+We need to make sure that the rural urban map and population count map
+should match in terms of resolution and extent. They also need to be
+from the closest time period possible with the epidemiological map to
+get the most accurate estimates.
 
 ## Load libraries
 
